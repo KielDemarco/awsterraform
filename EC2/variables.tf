@@ -1,5 +1,5 @@
 variable "region" {
-  default = "us-west-1"
+  default = ""
 }
 variable "ami" {
   description = "list of ami's to use with the ec2."
