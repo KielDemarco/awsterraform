@@ -11,7 +11,7 @@ variable "ami" {
     ubuntu = "ami-0ebef2838fb2605b7"
   }
   variable "instance"{
-  description = "list of instances for an ec2 that work with win server 19&20, Ubuntu 18.04,Cent OS and Amazon Linux 2"
+  description = "list of amd instances for an ec2 that work with win server 19&20, Ubuntu 18.04,Cent OS and Amazon Linux 2"
   type = map(string)
   default = {
   //16 vCPUs, 64gb memory, 1x 8gb, & 600 gb storage.
