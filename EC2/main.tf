@@ -9,29 +9,29 @@ terraform {
 //provider and region used for IaC.
 provider "aws" {
   profile = "default"
-  region  = "us-west-1"
+  region  = "us-east-1"
 }
 //Code for T2 instances.
-resource "aws_instance" "i1" {
+resource "aws_instance" "example" {
   ami                    = "ami-047a51fa27710816e"
   instance_type          = lookup(var.t2_instances, "t2_nano", "t2.nano")
-  vpc_security_group_ids = ["sg-41e45e76"]
-  subnet_id              = "subnet-f37efc95"
-  count                  = var.ec2_count_i1
+  vpc_security_group_ids = [""]
+  subnet_id              = ""
+  count                  = var.ec2_count1
   tags = {
-    Name = "i1"
+    Name = "example"
   }
 }
 
 //code for m4 instances.
-resource "aws_instance" "i2" {
+resource "aws_instance" "example" {
   ami                    = "ami-047a51fa27710816e"
   instance_type          = lookup(var.m4_instances, "m4_large", "m4.large")
-  vpc_security_group_ids = ["sg-41e45e76"]
-  subnet_id              = "subnet-f37efc95"
-  count                  = var.ec2_count_i2
+  vpc_security_group_ids = [""]
+  subnet_id              = ""
+  count                  = var.ec2_count2
   tags = {
-    Name = "i2"
+    Name = "example"
   }
 }
 //key pair for ec2. Make another if more is needed.
