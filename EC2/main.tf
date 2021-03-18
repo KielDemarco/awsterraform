@@ -13,7 +13,7 @@ provider "aws" {
 }
 //Code for T2 instances.
 resource "aws_instance" "example" {
-  ami                    = "ami-047a51fa27710816e"
+  ami                    = ""
   instance_type          = lookup(var.t2_instances, "t2_nano", "t2.nano")
   vpc_security_group_ids = [""]
   subnet_id              = ""
@@ -25,7 +25,7 @@ resource "aws_instance" "example" {
 
 //code for m4 instances.
 resource "aws_instance" "example" {
-  ami                    = "ami-047a51fa27710816e"
+  ami                    = ""
   instance_type          = lookup(var.m4_instances, "m4_large", "m4.large")
   vpc_security_group_ids = [""]
   subnet_id              = ""
