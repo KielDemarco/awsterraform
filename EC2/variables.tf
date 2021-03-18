@@ -1,11 +1,11 @@
 #https://aws.amazon.com/ec2/instance-types/ for more ec2 types.
 variable "region" {
-  default = "us-west-1"
+  default = "us-east-1"
 }
-variable "ec2_count_i1" {
+variable "ec2_count1" {
   default = 1
 }
-variable "ec2_count_i2" {
+variable "ec2_count2" {
   default = 1
 }
 #genral purpose burstable instances; ebs only storage.
