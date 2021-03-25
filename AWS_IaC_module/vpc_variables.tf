@@ -1,14 +1,14 @@
 variable "region" {
-  default = "us-east-1"
+  default = "#enter region here"
 }
 variable "public_cidr" {
   type    = list(string)
-  default = ["31.10.1.0/24", "31.10.4.0/24"]
+  default = ["#enter cidr here", "#enter cidr here"]
 }
 variable "private_cidr" {
-  default = ["31.10.2.0/24", "31.10.3.0/24"]
+  default = ["#enter cidr here", "#enter cidr here"]
 }
 variable "vpc_cidr" {
   type    = string
-  default = "31.10.0.0/16"
+  default = "#enter cidr here"
 }
