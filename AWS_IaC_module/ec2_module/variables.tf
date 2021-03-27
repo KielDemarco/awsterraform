@@ -9,4 +9,6 @@ variable "ami" {}
 
 variable "region" {}
 
+variable "pub_sub" {}
+
 variable "sec_group" {}
