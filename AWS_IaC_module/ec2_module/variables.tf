@@ -8,3 +8,5 @@ variable "m4_instances"{
 variable "ami" {}
 
 variable "region" {}
+
+variable "sec_group" {}
