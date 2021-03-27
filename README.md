@@ -7,3 +7,5 @@ Of course I am always editing this repo and adding more to it
 -VPC: Just a regular vpc with the subnets and routetables.
 
 -IAM: Lets you create an IAM user with password
+
+-AWS_IaC_module: module that allows you to build the vpc and ec2 together.
