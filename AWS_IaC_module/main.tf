@@ -11,4 +11,6 @@ module "ec2_module" {
   t2_instances = var.t2_instances
   m4_instances = var.m4_instances
   region       = var.region
+  pub_sub      = module.vpc_module.pub_sub_id
+  sec_group    = module.vpc_module.security_group_output
 }
