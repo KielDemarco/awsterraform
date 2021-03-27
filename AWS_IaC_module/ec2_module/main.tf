@@ -17,7 +17,7 @@ resource "aws_instance" "i1" {
   instance_type          = lookup(var.t2_instances, "t2_nano", "t2.nano")
   vpc_security_group_ids = [var.sec_group]
   subnet_id              = var.pub_sub
-  count                  = 1
+  count                  = var.ec2_count
   tags = {
     Name = "i1"
   }
@@ -29,7 +29,7 @@ resource "aws_instance" "i2" {
   instance_type          = lookup(var.m4_instances, "m4_large", "m4.large")
   vpc_security_group_ids = [var.sec_group]
   subnet_id              = var.pub_sub
-  count                  = 1
+  count                  = var.ec2_count_2
    tags = {
      Name = "i2"
    }
