@@ -1,2 +1,0 @@
-
-Creates a sagemaker notebook
