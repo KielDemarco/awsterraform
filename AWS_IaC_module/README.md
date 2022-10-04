@@ -1,1 +1,2 @@
-
+- git clone https://github.com/kielSDeM/terraform-aws-ec2-instance.git
+- cd terraform-aws-ec2-instance ; 
