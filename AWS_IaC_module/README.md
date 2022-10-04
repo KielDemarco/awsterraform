@@ -1,2 +1,3 @@
 - git clone https://github.com/kielSDeM/terraform-aws-ec2-instance.git
-- cd terraform-aws-ec2-instance ; terraform init ; terraform plan ; terraform deploy
+These commands should help with deploying the ec2 instance in a vpc.
+- cd terraform-aws-ec2-instance/AWS_IaC_module/ ; terraform init ; terraform plan ; terraform deploy
