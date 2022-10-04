@@ -1,2 +1,2 @@
 - git clone https://github.com/kielSDeM/terraform-aws-ec2-instance.git
-- cd terraform-aws-ec2-instance ; 
+- cd terraform-aws-ec2-instance ; terraform init ; terraform plan ; terraform deploy
