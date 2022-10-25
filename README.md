@@ -41,4 +41,4 @@ Install Terraform from the new repository.
 ```
 sudo apt-get install terraform 
 ```
-
+# Downloading and Applying the IaC
