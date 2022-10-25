@@ -1,4 +1,29 @@
 # AWS Terraform
+
+I use Linux for everything because it is just better.
+
+# Installiong AWS CLI
+First we need to install and login to the AWS cli.
+Here is the link to the install steps but we will be doing this here in this section.
+
+```
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+```
+```
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+
+```
+These are the instructions for configuring the cli
+```
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
+```
+
+```
+aws configure
+
+```
 # Installing Terraform
 Terraform module that allows you to create an ec2 group with a vpc all at once.
 
