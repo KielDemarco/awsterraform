@@ -72,5 +72,5 @@ sudo apt-get install terraform
 First we clone the repository and access the repository
 ```
 git clone https://github.com/kielSDeM/terraform-aws-ec2-instance.git
-cd terraform-aws-ec2-instance
+cd terraform-aws-ec2-instance/AWS_IaC_module
 ```
