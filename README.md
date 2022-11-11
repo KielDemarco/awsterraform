@@ -2,7 +2,7 @@
 
 I use Linux for everything because it is just better.
 
-# Installiong AWS CLI
+# Installing AWS CLI
 First we need to install and login to the AWS cli.
 Here is the link to the install steps but we will be doing this here in this section.
 
