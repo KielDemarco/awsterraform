@@ -27,7 +27,7 @@ aws configure
 # Installing Terraform
 Terraform module that allows you to create an ec2 group with a vpc all at once.
 
-Here is the link to help yo uwith installing terraform & here are the instructions given from HashiCorp on how to install there software.
+Here is the link to help you with installing the latest version of terraform & here are the instructions given from HashiCorp on how to install there software.
 ```
 https://learn.hashicorp.com/tutorials/terraform/install-cli
 ```
